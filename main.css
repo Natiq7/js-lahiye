@@ -8,8 +8,7 @@
 
 .box {
     width: 336px;
-    margin-left: 408px;
-    margin-top: 232px;
+    margin: 100px auto;
     border: 1px solid #C4C4C4;
     border-radius: 10px;
 }
@@ -37,6 +36,32 @@
     margin-top: 16px;
 }
 
+.s-btn {
+    width: 24px;
+    height: 24px;
+    background: none;
+    border: none;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.s-low{
+    background-image: url('./img/Group\ 90.svg');
+}
+
+.s-low:hover {
+    background-image: url('./img/Group\ 91.svg');
+}
+
+.s-high{
+    background-image: url('./img/Group\ 74.svg');
+}
+
+.s-high:hover {
+    background-image: url('./img/Group\ 73.svg');
+}
+
 ul {
     list-style-type: none;
 }
@@ -48,6 +73,7 @@ ul {
     height: 40px;
     border: 1px solid #C4C4C4;
     border-radius: 10px;
+    padding-left: 4px;
 }
 
 .input-img {
@@ -55,17 +81,18 @@ ul {
 
 }
 
-.btn-box{
+.btn-box {
     position: relative;
     width: 140px;
     margin: 10px auto;
     cursor: pointer;
 }
 
-li{
+li {
     position: relative;
 }
-.li-btn{
+
+.li-btn {
     width: 24px;
     height: 24px;
     position: absolute;
@@ -73,10 +100,14 @@ li{
     top: 18px;
     background: none;
     border: none;
-    background-image: url('./img/Group\ 70.png');
+    background-image: url('./img/Group\ 77.png');
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
+}
+
+.li-btn:hover {
+    background-image: url('./img/Group\ 70.png');
 }
 
 
@@ -89,7 +120,7 @@ li{
     color: white;
     border: none;
     cursor: pointer;
-    
+
 }
 
 
